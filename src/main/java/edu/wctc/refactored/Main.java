@@ -16,8 +16,7 @@ public class Main {
         setUIFont(new FontUIResource("Sans", Font.PLAIN, 18));
 
         // Create the window and show it
-        LibraryWindow window = new LibraryWindow();
-        window.setVisible(true);
+        Controller controller = new Controller();
     }
 
     public static void setUIFont(FontUIResource f) {
